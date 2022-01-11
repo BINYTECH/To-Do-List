@@ -1,0 +1,15 @@
+GET  http://localhost:8008/todos
+
+###
+POST   http://localhost:8008/todos/new
+Content-Type:  application/json
+
+{
+    "text":"One hour book reading"
+}
+
+###
+DELETE http://localhost:8008/todos/delete/61d518a9bff423514bc9b313
+
+###
+PUT http://localhost:8008/todos/complete/61d5b31d0af9124f181670e4
